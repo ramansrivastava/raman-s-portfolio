@@ -21,6 +21,27 @@
     border: 5px solid #0073e6; /* Optional border color for emphasis */
   }
 
+  /* src/components/About.css */
+
+.about-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-section img {
+    margin-top: 20px;
+    max-width: 80%; /* Resizes the image for mobile screens */
+  }
+}
+
   
 
 

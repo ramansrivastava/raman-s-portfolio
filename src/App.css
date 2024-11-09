@@ -25,3 +25,55 @@ h1, h2, p {
 .container {
   padding: 20px;
 }
+/* src/App.css */
+
+/* General styling for the app */
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for main content */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Adjust margins and padding for sections */
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  /* Adjust spacing in the main container for mobile screens */
+  .my-5 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Text alignment for mobile */
+  h2, h3, p {
+    text-align: center;
+  }
+
+  /* Make header, projects, interests, and contact sections stack better on mobile */
+  .App header, .App main, .App footer {
+    padding: 15px;
+  }
+
+  /* Responsive adjustments for images, if you have any */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
