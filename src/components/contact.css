@@ -1,0 +1,9 @@
+.text-info {
+  color: #2a7f7a; /* Greenish color or adjust to match your theme */
+  text-decoration: none;
+}
+
+.text-info:hover {
+  text-decoration: underline;
+  color: #1e6e67; /* Darker shade on hover */
+}

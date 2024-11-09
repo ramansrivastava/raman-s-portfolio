@@ -1,0 +1,27 @@
+/* src/components/About.css */
+.about-text h2 {
+    color: #007bff; /* Blue color for the title (About Me) */
+  }
+.about-section {
+    background-color: #333; /* Matches header background */
+    color: #fff; /* White text for readability */
+    padding: 20px;
+    border-radius: 8px; /* Optional: gives a slight roundness to the section */
+    margin-left: 100pt;
+  }
+  
+  .about-text {
+    padding-right: 20px;
+  }
+  
+  .about-image {
+    width: 50%; /* Adjust size as needed */
+    max-width: 200px;
+    border-radius: 00%; /* Circular profile image */
+    border: 5px solid #0073e6; /* Optional border color for emphasis */
+  }
+
+  
+
+
+  

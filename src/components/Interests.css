@@ -1,0 +1,41 @@
+/* Styling for the Interests Section */
+#interests {
+    background-color: inherit; /* Inherit background color from the page */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .text-primary {
+    color: #46f3e7; /* Adjust to match your site's color scheme */
+  }
+  
+  .interest-list {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 2rem; /* Space between the cards */
+    flex-wrap: wrap; /* Allow wrapping if the screen is too small */
+  }
+  
+  .interest-card {
+    background-color: #fff; /* White background for the card */
+    padding: 2rem;
+    width: 200px; /* Fixed width for the cards */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .interest-card:hover {
+    transform: scale(1.05); /* Slightly scale the card up on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .interest-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  

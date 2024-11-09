@@ -1,0 +1,77 @@
+/* Styling the entire section */
+#projects {
+    background-color: inherit; /* Inherit the background color from the page */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: center; /* Center the project-list horizontally */
+    align-items: center; /* Center the content vertically */
+    flex-direction: column;
+  }
+  
+  .text-primary {
+    color: #2a7f7a; /* Adjust this to match your website's theme */
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the project items horizontally */
+    gap: 2rem; /* Space between each project item */
+    width: 100%; /* Ensure the project-list takes up full width */
+    max-width: 800px; /* Limit width for readability */
+  }
+  
+  .project-item {
+    width: 100%;
+    max-width: 600px; /* Limit width for individual project items */
+    padding: 1.5rem;
+    text-align: left; /* Align the text to the left */
+    background-color: inherit; /* Inherit the background color from the page */
+    margin-bottom: 2rem; /* Add spacing between project items */
+  }
+  
+  .project-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .project-description {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-actions {
+    display: flex;
+    gap: 1.5rem; /* Added gap between the buttons */
+    justify-content: flex-start;
+  }
+  
+  .project-actions .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .project-actions .btn-outline-primary {
+    border: 2px solid #2a7f7a;
+    color: #2a7f7a;
+    background-color: transparent;
+  }
+  
+  .project-actions .btn-outline-primary:hover {
+    background-color: #2a7f7a;
+    color: white;
+  }
+  
+  .project-actions .btn-primary {
+    background-color: #2a7f7a;
+    color: white;
+  }
+  
+  .project-actions .btn-primary:hover {
+    background-color: #1e6e67;
+  }
+  
